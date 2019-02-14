@@ -1,0 +1,11 @@
+---
+## Example for Ansible Pull
+## by Raymii.org
+
+- name: Ansible Example Pull Mode
+  hosts: ubuntu
+  user: root
+  connection: ssh
+  tasks:
+   - name: ping
+     ping: ~
